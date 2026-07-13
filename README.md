@@ -6,10 +6,10 @@ I spent years running professional kitchens. A kitchen in service is a real-time
 
 ## What I've built
 
-**[ChefPro Kitchen Suite](https://github.com/apetrucci90-rgb/chefpro-public)** — an Android app for professional kitchens: USAR-aligned food costing, recipes that reprice the whole menu when a supplier changes prices, HACCP fryer analysis, and a physics-based cooking & pasteurisation calculator. Bilingual (EN/IT), heading to the Play Store.
+**[KitchenMetrics](https://github.com/apetrucci90-rgb/kitchenmetrics-public)** — an Android app for professional kitchens: USAR-aligned food costing, recipes that reprice the whole menu when a supplier changes prices, HACCP fryer analysis, and a physics-based cooking & pasteurisation calculator. Bilingual (EN/IT), heading to the Play Store.
 
-- 🧪 **[Try a piece of it live](https://apetrucci90-rgb.github.io/chefpro-public/lipid-database.html)** — the Lipid Science Database panel, running in your browser: 148 fats and oils, every value traced to a published source.
-- 📄 **[The bug that taught me the most](https://github.com/apetrucci90-rgb/chefpro-public/blob/main/TECHNICAL.md)** — my first thermal model declared chicken pasteurised **3.4× too early**. Nothing crashed; the numbers were just wrong. The case study covers how auditing every constant against published data caught it, and the proper Biot-number solver that fixed it.
+- 🧪 **[Try a piece of it live](https://apetrucci90-rgb.github.io/kitchenmetrics-public/lipid-database.html)** — the Lipid Science Database panel, running in your browser: 148 fats and oils, every value traced to a published source.
+- 📄 **[The bug that taught me the most](https://github.com/apetrucci90-rgb/kitchenmetrics-public/blob/main/TECHNICAL.md)** — my first thermal model declared chicken pasteurised **3.4× too early**. Nothing crashed; the numbers were just wrong. The case study covers how auditing every constant against published data caught it, and the proper Biot-number solver that fixed it.
 
 ## How I'm learning
 
