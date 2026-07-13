@@ -25,4 +25,4 @@ Currently working with **Java · Kotlin · JavaScript · HTML/CSS**, and learnin
 
 ---
 
-📍 Vicenza, Italy · 📫 apetrucci90@gmail.com
+📍 Vicenza, Italy · 📫 apetrucci90@gmail.com · [LinkedIn](https://www.linkedin.com/in/andrea-petrucci-17a080128/)
