@@ -1,28 +1,43 @@
 # Andrea Petrucci
 
-Chef, retraining as a software developer.
+**Software Developer** *(transitioning from 10 years as Head Chef)* · **deltaX — Developing Systems** · Vicenza, Italy
 
-I spent years running professional kitchens. A kitchen in service is a real-time system under load: inputs arrive out of order, resources degrade, and mistakes compound fast — so you learn to verify everything, trust nothing you haven't tasted, and fix the process rather than the symptom. It turns out that's most of engineering. Now I'm learning the other half: the code.
+I spent ten years running professional restaurant kitchens across Veneto and Trentino-Alto Adige. A kitchen in service is a concurrent system under real load: inputs arrive out of order, equipment degrades, and mistakes compound fast — you verify every figure before it goes out and fix the process rather than patching symptoms.
 
-## What I've built
-
-**[KitchenMetrics — Professional Cooking Suite](https://github.com/apetrucci90-rgb/kitchenmetrics-public)** — an Android app for professional kitchens: USAR-aligned food costing, recipes that reprice the whole menu when a supplier changes prices, HACCP fryer analysis, and a physics-based cooking & pasteurisation calculator. Trilingual (EN/IT/ES), fully offline, heading to the Play Store.
-
-- 🧪 **[Try a piece of it live](https://apetrucci90-rgb.github.io/kitchenmetrics-public/lipid-database.html)** — the Lipid Science Database panel, running in your browser: 148 fats and oils, every value traced to a published source.
-- 📄 **[The bug that taught me the most](https://github.com/apetrucci90-rgb/kitchenmetrics-public/blob/main/TECHNICAL.md)** — my first thermal model declared chicken pasteurised **3.4× too early**. Nothing crashed; the numbers were just wrong. The case study covers how auditing every constant against published data caught it, and the proper Biot-number solver that fixed it.
-
-## How I'm learning
-
-**[java-exercises](https://github.com/apetrucci90-rgb/java-exercises)** — my learning journal, kept honest: one long file from first BMI calculator to algorithmic complexity, with the real bugs left in and labelled. The best lesson so far: my perfect-number search was *correct* and still would have run for 93 days — the compiler catches undeclared variables, but nothing catches O(n²). Only reading your own loops does.
-
-Currently working with **Java · Kotlin · JavaScript · HTML/CSS**, and learning Python.
-
-## What I bring from the kitchen
-
-- **Verification as a habit** — you taste before you serve; I check numbers against sources before I trust them.
-- **Calm under load** — a Saturday-night service is a production incident that happens every week.
-- **Mise en place** — do the expensive work once, up front. (I later learned software calls this optimisation.)
+Now I apply that same discipline to building offline-first, verifiable software in **Java**, **Kotlin/Android**, **JavaScript/HTML/CSS**, and **Python** — designing domain models, deterministic architectures, and automated test suites while using AI tools critically as implementation accelerators under strict verification constraints.
 
 ---
 
-📍 Vicenza, Italy · 📫 apetrucci90@gmail.com · [LinkedIn](https://www.linkedin.com/in/andrea-petrucci-17a080128/)
+## Shipped Production Work
+
+### [KitchenMetrics](https://github.com/apetrucci90-rgb/kitchenmetrics-public) — Food Science, Costing &amp; HACCP Suite (`v1.9.8`)
+
+Offline-first suite for professional kitchens, live on [**Google Play**](https://play.google.com/store/apps/details?id=com.kitchenmetrics.app) (`~4 MB`, native Kotlin WebView) and the [**App Store (iOS)**](https://apps.apple.com/app/id6802054330) (`~7 MB`, Capacitor wrapper sharing the exact same engine core).
+
+- **Analytical Physics &amp; Nutrition:** Closed-form transient heat transfer (`Fourier` series + radiative/convective surface balance), sequential 2-stage finite-difference double cooking, `Bigelow` 6.0-log pasteurisation, `Pham (1986)` / `Cleland (2011)` freezing time (`1,108` food profiles), `148`-entry Lipid Science DB, deep-fat frying TPC degradation kinetics, USAR Prime Cost / recipe repricing, and double-entry HACCP Stock &amp; Lot traceability across `23` panels (`EN / IT / ES`).
+- **Privacy by Subtraction:** Zero Android OS permissions (`allowBackup="false"`, no `INTERNET`), zero external servers, zero telemetry.
+- **Automated Verification (`2026-11-15`):** **`98` test suites (`95` Node + `3` browser stub), `28,712` assertions passing, `0` failures** checking physics parity, i18n keys, regulatory bounds (`50` tracked source documents), backup/restore, and manifest privacy guards.
+- **Open Research &amp; ASHRAE Table Audit:**
+  - Deposited the plane-sections &amp; hollow-cavity cooking/freezing method on **Zenodo** ([`doi:10.5281/zenodo.22747922`](https://doi.org/10.5281/zenodo.22747922)) with companion repositories ([EN](https://github.com/apetrucci90-rgb/kitchenmetrics-plane-sections-en) · [IT](https://github.com/apetrucci90-rgb/kitchenmetrics-plane-sections-it)).
+  - While validating Choi–Okos coefficients against *ASHRAE Handbook — Refrigeration (ch. 9)*, identified a published table discrepancy on water density and reported it to ASHRAE (`2026-07-31`), formally confirmed by the responsible technical committee.
+- **Try Online:** [**Live Lipid Science Database Demo**](https://apetrucci90-rgb.github.io/kitchenmetrics-public/lipid-database.html) · [**Technical &amp; Verification Notes**](https://github.com/apetrucci90-rgb/kitchenmetrics-public/blob/main/TECHNICAL.md)
+
+### Commissioned Client Software — *BE Service Energy* *(Private Repo · Delivered &amp; In Production)*
+
+Standalone Windows desktop management suite built and delivered for an energy brokerage client: tariff/service comparison, client &amp; agent directory, operational dashboard, and contract expiry tracking.
+
+- **Stack:** **Java 25**, Maven, zero external runtime dependencies, embedded local HTTP server (`com.sun.net.httpserver` on `127.0.0.1`), atomic file persistence (`Decorator` pattern on TSV storage), covered by **`52` JUnit 5 test suites**, packaged as a native Windows installer.
+
+---
+
+## Stack &amp; Continuous Training
+
+- **Languages &amp; Core Tech:** Java (`Java 25`, OOP, NIO, HTTP server) · JavaScript (`ES6+`) · HTML5 / CSS3 · Kotlin (`Android`) · Python (foundations)
+- **Tooling &amp; Architecture:** Git / GitHub · Maven · Gradle · Capacitor (`iOS`) · Automated Unit &amp; Integrity Testing (`JUnit 5`, Node suites) · Offline-First Architectures · Linux (basic)
+- **Certifications:**
+  - *In progress:* **Oracle Java Foundations (`1Z0-811`)** · **Developing Secure Software (`LFD121` — OpenSSF / Linux Foundation)**
+  - *Completed:* **Python Essentials 1** (Cisco Networking Academy) · **Google Android Studio User / Developers Learning Pathway / Introduction to Programming in Kotlin** · **HACCP Certification**
+
+---
+
+📍 Vicenza, Italy · 💼 [LinkedIn](https://www.linkedin.com/in/andrea-petrucci-17a080128) · ✉️ KitchenMetrics support: `uncuocoatavola@gmail.com`
