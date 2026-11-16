@@ -35,7 +35,7 @@ Standalone Windows desktop management suite built and delivered for an energy br
 - **Languages &amp; Core Tech:** Java (`Java 25`, OOP, NIO, HTTP server) · JavaScript (`ES6+`) · HTML5 / CSS3 · Kotlin (`Android`) · Python (foundations)
 - **Tooling &amp; Architecture:** Git / GitHub · Maven · Gradle · Capacitor (`iOS`) · Automated Unit &amp; Integrity Testing (`JUnit 5`, Node suites) · Offline-First Architectures · Linux (basic)
 - **Certifications:**
-  - *In progress:* **Oracle Java Foundations (`1Z0-811`)** · **Developing Secure Software (`LFD121` — OpenSSF / Linux Foundation)**
+  - *In progress:* [**Oracle Java Foundations (`1Z0-811`)**](https://github.com/apetrucci90-rgb/JavaOracleUniversity1Z0_811) · **Developing Secure Software (`LFD121` — OpenSSF / Linux Foundation)**
   - *Completed:* **Python Essentials 1** (Cisco Networking Academy) · **Google Android Studio User / Developers Learning Pathway / Introduction to Programming in Kotlin** · **HACCP Certification**
 
 ---
